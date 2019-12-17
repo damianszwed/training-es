@@ -1,0 +1,550 @@
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"HELION","Rok_wydania":"2012","Nazwa":"Język C++. Szkoła programowania","Autor":"Prata S.","Cena":"56.73"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Czysty kod","Autor":"Robert C. Martin","Cena":"37.66"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Java podstawy - Cay S. Horstmann (twarda) [KSIĄŻKA]","Autor":"Cay S. Horstmann","Cena":"47.93"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Excel 2016 pl. Biblia - John Walkenbach (twarda) [KSIĄŻKA]","Autor":"John Walkenbach","Cena":"64.84"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"GREG","Nazwa":"Mądre bajki","Autor":"Antosiewicz Agnieszka","Cena":"5.08"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Opus magnum C++11. Programowanie w języku C++","Autor":"Grębosz Jerzy","Cena":"88.93"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Unix i Linux. Przewodnik administratora systemów. Wydanie V","Autor":"Evi Nemeth, Garth Snyder, Trent R. Hein , Ben Whaley , Dan Mackin","Cena":"103.47"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"C# 7.0 w pigułce - Joseph Albahari [KSIĄŻKA]","Autor":"Joseph Albahari","Cena":"74.05"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Zakamarki","Nazwa":"Hurra są Święta","Autor":"Nilson Ulf","Cena":"27.63"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2011","Nazwa":"Python. Wprowadzenie. Wydanie IV","Autor":"Mark Lutz","Cena":"81.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2015","Nazwa":"JavaScript i jQuery. Interaktywne strony WWW dla każdego","Autor":"Jon Duckett","Cena":"59.66"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Nazwa":"Wprowadzenie do algorytmów","Autor":"Cormen Thomas H., Leiserson Charles E., Rivest Roland L., Stein Clifford","Seria":"FUNDAMENTY INFORMATYKI","Cena":"89.4"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Python dla każdego","Autor":"Michael Dawson","Cena":"36.5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Python. Instrukcje dla programisty - Eric Matthes","Autor":"Eric Matthes","Cena":"51.3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"English 4 IT. Praktyczny kurs języka angielskiego dla specjalistów IT i nie tylko - Beata Błaszczyk","Autor":"Beata Błaszczyk","Cena":"23.53"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Czysta architektura. Struktura i design oprogramowania. Przewodnik dla profesjonalistów - Robert C. Martin","Autor":"Robert C. Martin","Cena":"39.98"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Wzorce projektowe. Rusz głową!","Autor":"Elisabeth Freeman, Eric Freeman, Bert Bates, Kat","Seria":"HEAD FIRST","Cena":"48.51"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Sztuka podstępu Łamałem ludzi nie hasła w2 - Kevin D. Mitnick (Author), William L. Simon (Author), Steve Wozniak (Foreword)","Autor":"Kevin D. Mitnick (Author), William L. Simon (Author), Steve Wozniak (Foreword)","Cena":"28.97"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Java w 21 dni. Wydanie VII - Rogers Cadenhead","Autor":"Rogers Cadenhead","Cena":"57.13"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Automatyzacja nudnych zadań z Pythonem. Nauka programowania - Al Sweigart [KSIĄŻKA]","Autor":"Al Sweigart","Cena":"54.13"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"ASP.NET Core MVC 2. Zaawansowane programowanie. Wydanie VII - Adam Freeman","Autor":"Adam Freeman","Cena":"74.22"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Thinking in Java Edycja polska. - Bruce Eckel","Autor":"Bruce Eckel","Cena":"85.93"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Java. Efektywne programowanie. Wydanie III - Joshua Bloch","Autor":"Joshua Bloch","Cena":"48.1"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Rok_wydania":"2015","Nazwa":"Testowanie i jakość oprogramowania. Metody, narzędzia, techniki","Autor":"Adam Roman","Cena":"107.27"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"C# 7.1 i .NET Core 2.0 dla Programistów Aplikacji Wieloplatformowych - Mark J. Price [KSIĄŻKA]","Autor":"Mark J. Price","Cena":"60.28"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Python. Rusz głową! Wydanie II - Paul Barry","Autor":"Paul Barry","Cena":"56.68"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Python w analizie danych. Przetwarzanie danych za pomocą pakietów Pandas i NumPy oraz środowiska IPython. Wydanie II - Wes McKinney","Autor":"Wes McKinney","Cena":"51.27"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"MŁODZI GIGANCI PROGRAMOWANIA SCRATCH","Autor":"RADOSŁAW KULESZA, SEBASTIAN LANGA, DAWID LEŚNIAKIEWICZ","Cena":"21.48"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"C#. Rusz głową! Wydanie III","Autor":"Jennifer Greene, Andrew Stellman","Cena":"56.65"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"DATA SCIENCE OD PODSTAW ANALIZA DANYCH W PYTHONIE","Autor":"JOEL GRUS","Cena":"34.18"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Rok_wydania":"2017","Nazwa":"Testowanie I Jakość Oprogramowania Modele Techniki Narzędzia Wyd. 2 - Adam Roman","Autor":"Adam Roman","Cena":"110.26"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Język C# 6.0 I Platforma .Net 4.6 - Andrew Troelsen","Cena":"116.86"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2011","Nazwa":"Java. Rusz głową! Wydanie II","Autor":"Bert Bates, Kathy Sierra","Cena":"59.87"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Media Service Zawada","Nazwa":"Psi Patrol Kraina opowieści Pieski ratują święta","Cena":"9.89"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Algorytmy. Ilustrowany przewodnik - Aditya Bhargava","Autor":"Aditya Bhargava","Cena":"32.86"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Logo design love. Tworzenie genialnych logotypów. Nowa odsłona - David Airey [KSIĄŻKA]","Autor":"David Airey","Cena":"33.94"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Kali Linux. Testy penetracyjne i bezpieczeństwo sieci dla zaawansowanych. Wydanie II - Vijay Kumar Velu","Autor":"Vijay Kumar Velu","Cena":"39.6"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Java. Efektywne programowanie. - Joshua Bloch","Autor":"Joshua Bloch","Cena":"39.14"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Adobe Photoshop CC/CC PL. Oficjalny podręcznik","Autor":"Andrew Faulkner, Conrad Chavez","Cena":"50.05"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Rok_wydania":"2016","Nazwa":"Nauka programowania z Minecraftem","Autor":"Craig Richardson","Cena":"51.06"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Java Techniki zaawansowane","Autor":"Horstmann Cay S.","Cena":"83.21"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"HTML,CSS i JavaScript dla każdego. Wydanie VII - Laura Lemay, Rafe Colburn, Jennifer Kyrnin","Autor":"Laura Lemay, Rafe Colburn, Jennifer Kyrnin","Cena":"57.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Uczenie maszynowe z użyciem Scikit-Learn i TensorFlow - Aurélien Géron","Autor":"Aurélien Géron","Cena":"56.71"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Egmont","Nazwa":"Minecraft Podręcznik podboju Netheru i kresu","Autor":"Milton Stephanie","Cena":"17.61"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Excel 2016 PL. Programowanie w VBA, Vademecum Walkenbacha - Michael Alexander [KSIĄŻKA]","Autor":"Michael Alexander","Cena":"57.49"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Egmont","Nazwa":"Minecraft. Podręcznik użytkowania czerwonego ...","Autor":"Jelley Craig","Cena":"18.54"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Czysty kod w c++ 17. Oprogramowanie łatwe w utrzymaniu - Stephan Roth [KSIĄŻKA]","Autor":"Stephan Roth","Cena":"33.96"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Html I Css Zaprojektuj I Zbuduj Witrynę Www Podręcznik Front End Developera - Jon Duckett","Autor":"Jon Duckett","Cena":"51.66"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Pragmatyczny programista. Od czeladnika do mistrza - David Thomas [KSIĄŻKA]","Autor":"David Thomas","Cena":"39.73"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Linux Profesjonalne Administrowanie Systemem Wyd. 2 - Dennis Matotek","Cena":"86.77"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Programowanie W Javie Solidna Wiedza W Praktyce Wyd. 11 - Paul Deitel","Cena":"39.9"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Promise","Rok_wydania":"2018","Nazwa":"Nowoczesna Java w działaniu - Raoul-Gabriel Urma, Mario Fusco, Alan Mycroft","Autor":"Raoul-Gabriel Urma, Mario Fusco, Alan Mycroft","Cena":"77.98"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"SIECI KOMPUTEROWE UJĘCIE CAŁOŚCIOWE WYD. 7","Autor":"JAMES KUROSE, KEITH ROSS","Cena":"79.73"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Adobe After Effects CC Oficjalny podręcznik - Lisa Fridsma [KSIĄŻKA]","Autor":"Lisa Fridsma","Cena":"39.6"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Tako","Nazwa":"Najlepsza zupa na świecie","Cena":"21.71"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Rok_wydania":"2017","Nazwa":"Data Science i uczenie maszynowe - Marcin Szeliga","Autor":"Marcin Szeliga","Cena":"60.41"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2015","Nazwa":"Domain-Driven Design. Zapanuj nad złożonym systemem informatycznym","Autor":"Eric Evans","Cena":"60.54"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Apokalipsa zombie nadchodzi! Obroń swoją bazę za pomocą prostych obwodów, Arduino i Raspberry Pi - Simon Monk","Autor":"Simon Monk","Cena":"14.7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"CCNA 200-125. Zostań administratorem sieci komputerowych Cisco - Adam Józefiok","Autor":"Adam Józefiok","Cena":"115.07"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Angular. Profesjonalne techniki programowania. Wydanie II - Adam Freeman","Autor":"Adam Freeman","Cena":"69.12"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Kotlin w Akcji - Dmitry Jemerov, Svetlana Isakova [KSIĄŻKA]","Autor":"Dmitry Jemerov, Svetlana Isakova","Cena":"43.49"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Algorytmy - Sedgewick Robert, Wayne Kevin","Autor":"Sedgewick Robert, Wayne Kevin","Cena":"85.81"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Język C++. Kompendium wiedzy","Autor":"Stroustrup Bjarne, Piwko Łukasz","Cena":"83.77"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"PWN NAUKOWY","Nazwa":"Programowanie wieloplatformowe z C++ i wxWidgets 3","Autor":"Bartosz W. Warzocha","Cena":"101.15"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Septem","Rok_wydania":"2014","Nazwa":"Excel 2013 PL. Programowanie w VBA dla bystrzaków","Autor":"John Walkenbach","Cena":"29.9"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Promise","Rok_wydania":"2017","Nazwa":"Egzamin 70-740: Windows Server 2016 - instalacja, funkcje magazynowe i obliczeniowe - Craig Zacker","Autor":"Craig Zacker","Cena":"60.07"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Media Service Zawada","Nazwa":"Psi Patrol Witaj w Klubie! Tom 1","Cena":"9.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2010","Nazwa":"Wzorce projektowe. Elementy oprogramowania obiektowego wielokrotnego użytku","Autor":"Erich Gamma, Richard Helm, Ralph Johnson, John M","Cena":"30.91"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Promise","Rok_wydania":"2016","Nazwa":"Podstawy języka T-SQL Microsoft SQL Server 2016 i Azure SQL Database - Itzik Ben-Gan","Autor":"Itzik Ben-Gan","Cena":"60.04"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"ZIELONA SOWA","Nazwa":"Wielka księga rysowania krok po kroku","Autor":"Whatmore Candice","Cena":"19.13"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"AMEET","Nazwa":"Lego Ninjago Księga Spinjitzu","Cena":"21.8"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Blender. Architektura i projektowanie. Wydanie II - Piotr Chlipalski","Autor":"Piotr Chlipalski","Cena":"54.19"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Wiedza Powszechna","Rok_wydania":"2014","Nazwa":"Fotografia z duszą","Autor":"Alessandra Cave","Cena":"36.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Rok_wydania":"2013","Nazwa":"Oracle Database 12c i SQL. Programowanie","Autor":"Jason Price","Cena":"56.98"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Excel 2010 PL Programowanie w VBA Vademecum Walkenbacha - John Walkenbach","Autor":"John Walkenbach","Cena":"69.9"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Autodesk inventor professional 2019 PL / 2019+ / Fusion 360 metodyka projektowania - Andrzej Jaskulski [KSIĄŻKA]","Autor":"Andrzej Jaskulski","Cena":"114.73"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Analizy statystyczne z programami Statistica i Excel - Małgorzata Rabiej","Autor":"Małgorzata Rabiej","Cena":"33.86"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Linux. Leksykon kieszonkowy. Wydanie III - Daniel J. Barrett","Autor":"Daniel J. Barrett","Cena":"17.25"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Nazwa":"Programowanie w języku R","Autor":"Gągolewski Marek","Cena":"53.63"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"PHP i MySQL. Dla każdego. Wydanie III - Marcin Lis","Autor":"Marcin Lis","Cena":"57.49"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"DDD dla architektów oprogramowania - Vaughn Vernon [KSIĄŻKA]","Autor":"Vaughn Vernon","Cena":"61.18"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Egmont","Nazwa":"Minecraft. Album przetrwania z naklejkami","Autor":"Jelley Craig, Milton Stephanie","Cena":"14.31"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Adobe Premiere pro CC Oficjalny podręcznik - Maxim Jago [KSIĄŻKA]","Autor":"Maxim Jago","Cena":"51.13"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Rok_wydania":"2015","Nazwa":"Kurs księgowości komputerowej Sage Symfonia 2015.","Autor":"Chomuszko Magdalena, Sikorska Natalia","Cena":"27.3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Java. To takie proste. Praktyczne wprowadzenie do programowania - Bryson Payne [KSIĄŻKA]","Autor":"Bryson Payne","Cena":"53.63"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"PWN","Rok_wydania":"2018","Nazwa":"Praktyczny Sql Opowiadanie Historii Poprzez Dane Przewodnik Dla Początkujących - Anthony Debarros","Autor":"Anthony Debarros","Cena":"60.42"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Egmont","Rok_wydania":"2018","Nazwa":"Minecraft. Rocznik 2019 - Milton Stephanie, Ryan Marsh, Sam Ross","Autor":"Stephanie Milton","Cena":"17.21"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2014","Nazwa":"Nie każ mi myśleć! O życiowym podejściu do funkcjonalności stron internetowych. Wydanie II","Autor":"Steve Krug","Cena":"28.13"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Nazwa":"Python. Uczenie maszynowe - Sebastian Raschka [KSIĄŻKA]","Autor":"Sebastian Raschka","Cena":"39.44"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Zarządzanie 3.0. Kierowanie zespołami z wykorzystaniem metodyk Agile","Autor":"Jurgen Appelo","Cena":"33.82"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ": "Książka", "Wydawnictwo":"Zysk I S-Ka","Nazwa":"ŹRÓDŁO - AYN RAND","Autor":"Ayn Rand","Oprawa":"twarda","Cena":"35.69"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Książka"} }
+{"Typ": "Książka", "Wydawnictwo":"Wydawnictwo Literackie","Nazwa":"ŻABKA I ROPUCH","Autor":"Arnold Lobel","Cena":"17.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Smart_TV":"System producenta","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Toshiba 55T6863DG","Cena":"2099.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Philips 55PUS7303","Cena":"2799.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"120 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG OLED55C8","Cena":"6199.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2600 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU8042","Cena":"3499.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Smart_TV":"System producenta","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Nowość Toshiba 49U7863DG XUHD","Cena":"2199.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Nowość Toshiba 49V5863DG UHD","Cena":"1799.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung QE55Q6FNA","Cena":"4149.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG OLED55B8","Cena":"5595.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7172","Cena":"1990.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Smart_TV":"Android TV","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia KD-55XF9005","Cena":"4654.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung QE65Q6FNA","Cena":"5999.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"60 cali","Nazwa":"Sony Bravia KD-60XF8305B","Cena":"4195.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2600 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU8042","Cena":"4949.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2500 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU8002","Cena":"3354.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Smart_TV":"Android TV","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Sony Bravia KD-65XF9005","Cena":"6562.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"3200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung QE55Q7FNA","Cena":"4992.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Samsung UE49NU7172","Cena":"1675.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia KD-55XE7005","Cena":"2799.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1000 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia KD-55XF8596","Cena":"3999.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU7092","Cena":"3198.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55SK8100","Cena":"3311.69"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"Samsung UE50NU7092","Cena":"1644.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2500 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"75 cali","Nazwa":"Samsung UE75NU8002","Cena":"7390.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7093","Cena":"1996.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"120 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"LG OLED65C8","Cena":"9977.85"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU7172","Cena":"3325.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU7102","Cena":"3499.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Samsung UE43NU7122","Cena":"1390.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Samsung UE43NU7092","Cena":"1419.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"LG OLED65B8","Cena":"8627.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Sony Bravia KD-49XF7596","Cena":"2367.76"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"JVC LT55VU63K","Cena":"1799.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Sony Bravia KD-65XF8505","Cena":"4995.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"LG 50UK6300","Cena":"1599.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"3200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung QE65Q7FNA","Cena":"7378.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia KD-55XF7596","Cena":"3008.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"Full HD","Przekątna_ekranu":"55 cali","Nazwa":"LG OLED55EG9A7V","Cena":"5899.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Nowość Manta 43LUN58K","Cena":"888.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2500 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU8002","Cena":"4941.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"Full HD","Przekątna_ekranu":"43 cale","Nazwa":"Philips 43PFT5503","Cena":"949.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Nowość PHILIPS 43PUS6523","Cena":"1639.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"LG 49SK8500","Cena":"3315.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2600 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Samsung QE49Q6FNA","Cena":"3497.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7102","Cena":"2088.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"120 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Nowość Philips 55OLED803","Cena":"7489.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Smart_TV":"Android TV","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Sony Bravia KD-49XF9005","Cena":"4179.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"Philips 50PUS7303","Cena":"2598.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Samsung UE43NU7192","Cena":"1469.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia KD-55XF7005","Cena":"2399.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"Philips 50PUS6703","Cena":"1879.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"400 Hz","Rozdzielczość":"Full HD","Przekątna_ekranu":"40 cali","Nazwa":"Sony Bravia KDL-40WE660","Cena":"1499.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"120 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Philips 55PUS8303","Cena":"3998.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"40 cali","Nazwa":"Samsung UE40NU7192","Cena":"1448.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7472","Cena":"2748.39"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Manta 65LUA58L EMPEROR","Cena":"2244.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7452","Cena":"2609.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7092","Cena":"1915.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2600 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU8072","Cena":"3849.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2600 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU8052","Cena":"5799.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Smart_TV":"Android TV","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Sony Bravia OLED KD-65AF8","Cena":"10694.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55UK7550","Cena":"2839.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Sony Bravia KD-49XF7005","Cena":"1999.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"JVC LT55VU63K","Cena":"1799.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55SK8500","Cena":"4074.5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"LG 50UK6950PLB","Cena":"2198.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"120 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Philips 49PUS8303","Cena":"3349.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Philips 43PUS6703","Cena":"1560.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"300 Hz","Rozdzielczość":"Full HD","Przekątna_ekranu":"32 cale","Nazwa":"Samsung UE32N5002","Cena":"949.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"3700 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung QE65Q9FNA","Cena":"10482.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"LG 43UK6400","Cena":"1597.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Sony Bravia KD-43XF7596","Cena":"2236.35"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"3700 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung QE55Q9FNA","Cena":"7447.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"LG 65SK8100","Cena":"4599.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"70 cali","Nazwa":"Sony Bravia KD-70XF8305B","Cena":"6189.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55SK9500","Cena":"4585.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"LG 50UK6500","Cena":"1928.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"Samsung UE50NU7472","Cena":"2349.3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"75 cali","Nazwa":"Samsung UE75NU7172","Cena":"5598.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"LG 65UK6400","Cena":"3498.47"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Smart_TV":"System producenta","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"LG OLED65E8","Cena":"11095.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"JVC LT55VU63K","Cena":"1799.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55UK6400","Cena":"2198.49"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55MU6102","Cena":"2349.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55UK6500","Cena":"2217.99"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Smart_TV":"Android TV","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia OLED KD-55AF8","Cena":"7898.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"LG 49SK8100","Cena":"2695.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Samsung UE43NU7472","Cena":"2071.75"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Philips 43PUS7303","Cena":"2147.98"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Panasonic TX-55FX780E","Cena":"3999.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Smart_TV":"System producenta","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Panasonic TX-55FZ800E","Cena":"7448.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Philips 65PUS7303","Cena":"4400.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Panasonic TX-49FX780E","Cena":"3675.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Telewizor"} }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Sony Bravia KD-43XF7005","Cena":"1949.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }	
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"Nowość ASUS TUF Gaming FX705GD 17,3\"/i5/8GB/240GB+1TB/NoOS (FX705GDEW070240SSDM2)","Cena":"3899.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"128GB","Nazwa":"Apple MacBook Air 13,3\" 128GB Intel Core i5 Srebrny (MQD32ZEA)","Cena":"3495.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"240GB","Nazwa":"Lenovo Ideapad 330-17 17,3\"/i5/8GB/240/Win10 (81DM006QPB240SSD)","Cena":"1699.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"2GB","Pojemność_dysku_twardego":"64GB","Nazwa":"Lenovo Miix 320-10 (80XF00F0PB)","Cena":"799.0","Rodzina_procesora":"Intel Atom"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"128GB","Nazwa":"Apple MacBook Pro 13\"/128GB/i5 Gwiezdna Szarość (MPXQ2ZEA)","Cena":"5240.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"256GB","Nazwa":"Huawei MateBook D 14\"/Ryzen5/8GB/256GB/Win10 (53010ECR)","Cena":"2599.0","Rodzina_procesora":"AMD Ryzen 5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"256GB","Nazwa":"Huawei MateBook D 15,6\"/i5/8GB/256GB/Win10 (MARCONIW10B)","Cena":"2699.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"128GB","Nazwa":"Microsoft Surface Pro 12,3\"/i5/8GB/128GB/Win10 (KJR00004)","Cena":"3199.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"500GB","Nazwa":"HP 250 G6 15,6''/N3350/4GB/500GB/NoOS (2SX50EA)","Cena":"899.0","Rodzina_procesora":"Intel Celeron"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"128GB","Nazwa":"Lenovo Ideapad 120S-14IAP 14\"/N4200/4GB/128GB/Win10 (81A500FTPB)","Cena":"1389.0","Rodzina_procesora":"Intel Pentium"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"128GB","Nazwa":"ASUS Transformer Book T101HA-GR030T","Cena":"1399.0","Rodzina_procesora":"Intel Atom"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"1TB","Nazwa":"Lenovo IdeaPad 320-15IAP 15,6\"/N4200/4GB/1TB/Win10 (80XR0156PB)","Cena":"1495.0","Rodzina_procesora":"Intel Pentium"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"256GB","Nazwa":"ASUS VivoBook S14 S410UA 14,1\"/i5/8GB/256GB/Win10 (S410UAEB031T)","Cena":"2989.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Przekątna_ekranu":"13,3 cala","Nazwa":"Xiaomi Mi Notebook Air 13,3\"/i5/8GB/256GB/Win10 (6934177703812)","Cena":"3999.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"Acer Aspire Nitro 5 15,6\"/i5/8GB/1000GB/Win10 (NHQ2XEP001)","Cena":"2999.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"Lenovo Legion Y530-15 15,6\"/i5/8GB/1TB/NoOS (81FV00HWPB8GB)","Cena":"3435.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Nazwa":"Huawei MateBook X PRO 13,9\"/i5/8GB/256GB/Win10 (53010DET)","Cena":"5290.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"16GB","Pojemność_dysku_twardego":"512GB","Nazwa":"Ultrabook Lenovo ThinkPad X1 Carbon 5 (20HR0069PB)","Cena":"5533.14","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"2GB","Pojemność_dysku_twardego":"32GB","Nazwa":"Lenovo Ideapad 120S-11IAP 11,6\"/N3350/2GB/32GB/Win10 (81A400KBPB)","Cena":"699.0","Rodzina_procesora":"Intel Celeron"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB, 8GB, 16GB, 12GB","Pojemność_dysku_twardego":"500GB","Nazwa":"Acer Extensa 2540 (NXEFHEP003)","Cena":"1299.0","Rodzina_procesora":"Intel Core i3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB, 16GB","Pojemność_dysku_twardego":"1TB, 120GB, 240GB","Nazwa":"HP Pavilion 15-cc502nw (2CU27EA)","Cena":"2699.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"64GB","Nazwa":"Lenovo Ideapad 120s-14 14,1\"/N3350/4GB/64GB/Win10 (81A500CMPB)","Cena":"899.0","Rodzina_procesora":"Intel Celeron"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB, 16GB, 32GB","Pojemność_dysku_twardego":"1TB, 120GB, 256GB","Nazwa":"MSI GV62 (GV627RC064PL)","Cena":"3673.95","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"Lenovo IdeaPad 320S 15,6\"/i5/8GB/1TB/Win10 (81BG005DPB)","Cena":"2695.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"256GB","Nazwa":"DELL Inspiron 15 5570 15,6\"/i7/8GB/256GB/Radeon 530/Win10 (55702890KTR_8G256SW10)","Cena":"3499.99","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB, 16GB, 32GB","Pojemność_dysku_twardego":"1TB, 120GB, 256GB","Nazwa":"MSI GV72 (GV727RD1047XPL)","Cena":"4087.0","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"256GB","Nazwa":"Asus ZenBook UX430UA 14,1\"/i5/8GB/256GB/Win10 (UX430UAGV285T)","Cena":"3788.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"128GB","Nazwa":"Microsoft Surface Pro 12,3\"/i5/4GB/128GB/Win10 (FJT00004)","Cena":"2599.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"500GB, 32GB","Nazwa":"Kiano SlimNote 15.6 HDD (KSN156)","Cena":"996.0","Rodzina_procesora":"Intel Celeron"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"32GB","Nazwa":"Kruger&Matz Explore 1403 (KM1403)","Cena":"749.0","Rodzina_procesora":"Intel Atom"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"256GB","Nazwa":"Apple MacBook Pro 13,3\"/i5/8GB/256GB/macOS Space Grey (MR9Q2ZE/A)","Cena":"7944.97","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Nazwa":"MacBook Air Retina 13,3\"/i5/8GB/128GB/MacOS (MRE82ZEA)","Cena":"5255.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"DELL Inspiron 17 5770 17,3\"/i7/8GB/1000GB+128GB/Radeon 530/Win10 (57703071KTR_8G1.128HSW10)","Cena":"3849.0","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Nazwa":"HUAWEI MateBook D i5-8250U/8GB/256GB SSD/INT/Win10H Szary","Cena":"2699.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Przekątna_ekranu":"11,6 cala","Nazwa":"ASUS E203NA-FD116TS 11,6\"/N3350/4GB/64GB/Win10 (E203NAFD116TS)","Cena":"1249.0","Rodzina_procesora":"Intel Celeron"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Przekątna_ekranu":"15,6 cala","Nazwa":"HP Pavilion 15-cs0006nw 15,6\"/i5/8GB/256GB/Win10 (4UC09EA)","Cena":"3199.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"256GB","Nazwa":"Microsoft Surface Pro 12,3\"/i5/8GB/256GB/Win10 (FJY00004)","Cena":"3599.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"16GB","Nazwa":"Huawei MateBook X PRO 13,9\"/i7/16GB/512GB/Win10 (53010CRD)","Cena":"7399.0","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"Huawei MateBook D 15,6\"/i5/8GB/128GB+1TB/Win10 (MARCONIW50E)","Cena":"2999.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"DELL Inspiron 15 7577 (75770034KTR_8G1THW10)","Cena":"3999.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"256GB","Nazwa":"Apple MacBook Air 13,3\" 256GB Intel Core i5 Srebrny (MQD42ZEA)","Cena":"5149.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"32GB","Nazwa":"Kiano Elegance 13.3 13,3\"/N3350/4GB/32GB/Win10 (ELEGANCE133)","Cena":"999.0","Rodzina_procesora":"Intel Celeron"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Nazwa":"Dell Inspiron 5570 15,6\"/i7/8GB/128GB+2TB/Win10 (LOKI15KBL1901_2418_B)","Cena":"3729.0","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Przekątna_ekranu":"15,6 cala","Nazwa":"ASUS R540MA-DM140T 15,6\"/N5000/4GB/256GB/Win10 (R540MADM140T)","Cena":"1587.0","Rodzina_procesora":"Intel Pentium"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Przekątna_ekranu":"15,6 cala","Nazwa":"HP 15-ra070nw 15,6\"/N3060/4GB/500GB/Win10 (3QS80EA)","Cena":"1019.0","Rodzina_procesora":"Intel Celeron"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"500GB, 256GB","Nazwa":"ASUS E502NA-GO010T (E502NAGO010T)","Cena":"1295.0","Rodzina_procesora":"Intel Pentium"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"2GB","Pojemność_dysku_twardego":"32GB","Nazwa":"Lenovo Yoga A12 (ZA1Y0096CZ)","Cena":"1444.0","Rodzina_procesora":"Intel Atom x5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Przekątna_ekranu":"13,3 cala","Nazwa":"HP Envy 13 13,3\"/i5/8GB/256GB/Win10 (3QP68EA)","Cena":"3849.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"16GB","Pojemność_dysku_twardego":"Nie dotyczy","Nazwa":"Lenovo ThinkPad X1 Carbon 5 (20HR0067PB)","Cena":"5772.68","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"1TB","Nazwa":"HP 250 G6 (1WY23EA)","Cena":"1645.0","Rodzina_procesora":"Intel Core i3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"1TB","Nazwa":"ASUS ZenBook UX410UA (UX410UAGV035T)","Cena":"2192.0","Rodzina_procesora":"Intel Core i3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"256GB","Nazwa":"Asus VivoBook Flip 14 14''/M3/8GB/256GB/Win10 (TP401CA-EC067T)","Cena":"2999.99","Rodzina_procesora":"Intel Core M3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Przekątna_ekranu":"15,6 cala","Nazwa":"Lenovo IdeaPad 330-15ICH 15,6\"/i5/8GB/1TB/NoOS (81FK008JPB)","Cena":"2999.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"HP Omen 15-ce008nw 15.6''/i5/8GB/1TB/Win10 (2BR99EAAKDZ)","Cena":"3548.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Nazwa":"HP 15-Ra049nq (3FY58EA)","Cena":"4058.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Przekątna_ekranu":"15,6 cala","Nazwa":"Asus VivoBook S15 i5/8GB/256GB/Win10 (S510UNBQ146T)","Cena":"3195.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"2GB","Pojemność_dysku_twardego":"32GB","Nazwa":"Lenovo Yoga 300-11Ibr (80M100Vspb)","Cena":"899.0","Rodzina_procesora":"Intel Celeron"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Dysk_twardy":"1TB HDD","Przekątna_ekranu":"27 cali","Nazwa":"Apple AiO iMac 27\" (MNE92ZEA)","Cena":"7839.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB, 16GB","Przekątna_ekranu":"15,6 cala","Nazwa":"ASUS VivoBook Pro 15 N580VD 15,6\"/i7/8GB/1000GB/Win10 (N580VD-E4624T)","Cena":"3699.0","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Przekątna_ekranu":"15,6 cala","Nazwa":"MSI GV62 8RC-091XPL 15,6\"/i5/8GB/1TB/NoOS (GV628RC091XPL)","Cena":"3393.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"16GB","Przekątna_ekranu":"15,4 cala","Nazwa":"Apple MacBook Pro 15,4\"/i7/16GB/256GB/macOS Space Grey (MR932ZE/A)","Cena":"10386.79","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"128GB","Nazwa":"Apple MacBook Pro 13\"/128GB/i5 Srebrny (MPXR2ZEA)","Cena":"5499.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Nazwa":"ACER A114-31-C7W5 (A11431C7W5)","Cena":"719.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"256GB","Nazwa":"Xiaomi Mi Notebook Air 13 (16986)","Cena":"3599.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"HP 15-BS028CA 15,6\"/i5/8GB/1TB/Win10 (1UG34UAR)","Cena":"2049.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"64GB","Nazwa":"Kiano Elegance 13.3 360 13,3''/N3350/4GB/64GB/Win10 (ELEGANCE133360)","Cena":"1299.0","Rodzina_procesora":"Intel Celeron"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"1TB","Nazwa":"Lenovo Ideapad 320-15Isk (80XH00K6PB)","Cena":"1695.0","Rodzina_procesora":"Intel Core i3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"128GB","Nazwa":"HP Pavilion x360 14-ba024nw (2LD31EA)","Cena":"2839.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"Acer Aspire 5 15,6\"/i7/8GB/1TB/Win10 (NXGP4AA004)","Cena":"2348.99","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Przekątna_ekranu":"15,6 cala","Nazwa":"Lenovo IdeaPad 320-15IKBRN 15,6\"/i5/8GB/256GB/Win10 (81BG00WFPB)","Cena":"2895.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"64GB","Nazwa":"ACER Spin SP111-32N (NX.GRMEP.001)","Cena":"1599.0","Rodzina_procesora":"Intel Celeron"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB, 8GB","Pojemność_dysku_twardego":"500GB, 120GB, 240GB","Nazwa":"HP 15 (1WA45EA)","Cena":"1415.99","Rodzina_procesora":"Intel Core i3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"120GB, 32GB","Nazwa":"Kiano Elegance 14,2 N3350/4GB/32GB+120GB/Win10 (ELEGANCE_142)","Cena":"1199.0","Rodzina_procesora":"Intel Celeron"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"Nie dotyczy","Nazwa":"DELL Vostro 5370 13,3\"/i5/8GB/256GB/Win10 (S123PVN5370BTSPL_1805)","Cena":"3397.26","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Dysk_twardy":"1TB HDD","Przekątna_ekranu":"21,5 cala","Nazwa":"Apple AiO iMac 21,5\" (MMQA2ZEA)","Cena":"4734.0"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB, 8GB, 16GB, 12GB, 24GB, 32GB","Pojemność_dysku_twardego":"1TB","Nazwa":"DELL Vostro 3568 15,6\"/i3/4GB/1TB/Win10 (S064VN3568BTSPL01_1805)","Cena":"2029.0","Rodzina_procesora":"Intel Core i3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"Acer Aspire A515-51G-54TZ (NXGP5EP005)","Cena":"2676.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pojemność_dysku_twardego":"1TB","Przekątna_ekranu":"15,6 cala","Nazwa":"MSI GF63 i5/8GB/1TB/NOOS (GF638RC040XPL)","Cena":"3389.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Przekątna_ekranu":"15,6 cala","Nazwa":"HP Pavilion Power 15,6\"/i5/8G/1TB/NOOS (15BC402NW5GV06EA)","Cena":"2993.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Pojemność_dysku_twardego":"128GB","Nazwa":"Dell Inspiron 5370 13,3\"/i3/4GB/128GB/Win10 (53703124)","Cena":"2349.0","Rodzina_procesora":"Intel Core i3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB, 16GB","Pojemność_dysku_twardego":"1TB, 120GB, 256GB","Nazwa":"MSI PL62 (PL627RC021XPL)","Cena":"3299.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"32GB","Pojemność_dysku_twardego":"1TB","Nazwa":"MSI GT83 Titan 8RG-013PL 18,4\"/i7/32GB/512GB/Win10 (GT838RG013PL)","Cena":"17499.0","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"Nie dotyczy","Nazwa":"DELL XPS 13 9370 13,3\"/i7/8GB/256GB/Win10 (93703827KTR)","Cena":"5290.0","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Nazwa":"Lenovo YOGA 520-14IKB (80X80150PB)","Cena":"2349.0","Rodzina_procesora":"Intel Core i3"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"16GB","Pojemność_dysku_twardego":"256GB","Nazwa":"Apple MacBook Pro 15,4\"/i7/16GB/256GB/MacOS Srebrny (MJLQ2ZEA)","Cena":"8690.0","Rodzina_procesora":"Intel Core i7"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pojemność_dysku_twardego":"500GB","Przekątna_ekranu":"15,6 cala","Nazwa":"ASUS VivoBook X541NA 15,6\"/N3350/4GB/500GB/NoOS (K540NAKT184)","Cena":"1299.0","Rodzina_procesora":"Intel Celeron, Intel Pentium"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Przekątna_ekranu":"10 cali","Nazwa":"Lenovo Yoga Book YB1-X91L 10,1\"/x5/4GB/128GB/Win10 (ZA160114PL)","Cena":"2699.0","Rodzina_procesora":"Intel Atom"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Przekątna_ekranu":"13,3 cala","Nazwa":"Dell XPS 13 9360 13,3\"/i5/8GB/256GB/Win10 (XPS0158V256SSDM2)","Cena":"5599.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"8GB","Pojemność_dysku_twardego":"1TB","Nazwa":"Lenovo Legion Y520-15IKB 15,6\"/i5/8GB/1TB/Win10 (80WK01B7PB)","Cena":"3299.0","Rodzina_procesora":"Intel Core i5"}
+{ "index" : { "_index" : "products", "_type" : "_doc" , "routing" : "Laptop"} }
+{"Typ":"Laptop","Pamięć_RAM":"4GB","Przekątna_ekranu":"14 cali","Nazwa":"Lenovo Ideapad 120s-14 14\"/N3350/4GB/32GB/Win10 (81A500FPPB)","Cena":"930.48","Rodzina_procesora":"Intel Celeron"}

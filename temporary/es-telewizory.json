@@ -1,0 +1,187 @@
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Smart_TV":"System producenta","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Toshiba 55T6863DG","Cena":"2099.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Philips 55PUS7303","Cena":"2799.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"120 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG OLED55C8","Cena":"6199.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2600 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU8042","Cena":"3499.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Smart_TV":"System producenta","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Nowość Toshiba 49U7863DG XUHD","Cena":"2199.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Nowość Toshiba 49V5863DG UHD","Cena":"1799.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung QE55Q6FNA","Cena":"4149.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG OLED55B8","Cena":"5595.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7172","Cena":"1990.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Smart_TV":"Android TV","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia KD-55XF9005","Cena":"4654.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung QE65Q6FNA","Cena":"5999.99"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"60 cali","Nazwa":"Sony Bravia KD-60XF8305B","Cena":"4195.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2600 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU8042","Cena":"4949.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2500 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU8002","Cena":"3354.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Smart_TV":"Android TV","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Sony Bravia KD-65XF9005","Cena":"6562.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"3200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung QE55Q7FNA","Cena":"4992.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Samsung UE49NU7172","Cena":"1675.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia KD-55XE7005","Cena":"2799.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1000 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia KD-55XF8596","Cena":"3999.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU7092","Cena":"3198.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55SK8100","Cena":"3311.69"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"Samsung UE50NU7092","Cena":"1644.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2500 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"75 cali","Nazwa":"Samsung UE75NU8002","Cena":"7390.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7093","Cena":"1996.99"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"120 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"LG OLED65C8","Cena":"9977.85"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU7172","Cena":"3325.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU7102","Cena":"3499.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Samsung UE43NU7122","Cena":"1390.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Samsung UE43NU7092","Cena":"1419.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"LG OLED65B8","Cena":"8627.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Sony Bravia KD-49XF7596","Cena":"2367.76"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"JVC LT55VU63K","Cena":"1799.99"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Sony Bravia KD-65XF8505","Cena":"4995.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"LG 50UK6300","Cena":"1599.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"3200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung QE65Q7FNA","Cena":"7378.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia KD-55XF7596","Cena":"3008.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"Full HD","Przekątna_ekranu":"55 cali","Nazwa":"LG OLED55EG9A7V","Cena":"5899.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Nowość Manta 43LUN58K","Cena":"888.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2500 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU8002","Cena":"4941.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"Full HD","Przekątna_ekranu":"43 cale","Nazwa":"Philips 43PFT5503","Cena":"949.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Nowość PHILIPS 43PUS6523","Cena":"1639.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"LG 49SK8500","Cena":"3315.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2600 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Samsung QE49Q6FNA","Cena":"3497.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7102","Cena":"2088.99"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"120 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Nowość Philips 55OLED803","Cena":"7489.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Smart_TV":"Android TV","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Sony Bravia KD-49XF9005","Cena":"4179.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"Philips 50PUS7303","Cena":"2598.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Samsung UE43NU7192","Cena":"1469.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia KD-55XF7005","Cena":"2399.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"Philips 50PUS6703","Cena":"1879.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"400 Hz","Rozdzielczość":"Full HD","Przekątna_ekranu":"40 cali","Nazwa":"Sony Bravia KDL-40WE660","Cena":"1499.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"120 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Philips 55PUS8303","Cena":"3998.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"40 cali","Nazwa":"Samsung UE40NU7192","Cena":"1448.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7472","Cena":"2748.39"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Manta 65LUA58L EMPEROR","Cena":"2244.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7452","Cena":"2609.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU7092","Cena":"1915.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2600 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55NU8072","Cena":"3849.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2600 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung UE65NU8052","Cena":"5799.99"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Smart_TV":"Android TV","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Sony Bravia OLED KD-65AF8","Cena":"10694.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55UK7550","Cena":"2839.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Sony Bravia KD-49XF7005","Cena":"1999.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"JVC LT55VU63K","Cena":"1799.99"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55SK8500","Cena":"4074.5"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"LG 50UK6950PLB","Cena":"2198.99"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"120 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Philips 49PUS8303","Cena":"3349.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Philips 43PUS6703","Cena":"1560.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"300 Hz","Rozdzielczość":"Full HD","Przekątna_ekranu":"32 cale","Nazwa":"Samsung UE32N5002","Cena":"949.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"3700 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Samsung QE65Q9FNA","Cena":"10482.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"LG 43UK6400","Cena":"1597.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Sony Bravia KD-43XF7596","Cena":"2236.35"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"3700 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung QE55Q9FNA","Cena":"7447.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"LG 65SK8100","Cena":"4599.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"70 cali","Nazwa":"Sony Bravia KD-70XF8305B","Cena":"6189.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55SK9500","Cena":"4585.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"LG 50UK6500","Cena":"1928.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"50 cali","Nazwa":"Samsung UE50NU7472","Cena":"2349.3"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"75 cali","Nazwa":"Samsung UE75NU7172","Cena":"5598.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"LG 65UK6400","Cena":"3498.47"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Smart_TV":"System producenta","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"LG OLED65E8","Cena":"11095.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"50 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"JVC LT55VU63K","Cena":"1799.99"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55UK6400","Cena":"2198.49"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1300 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Samsung UE55MU6102","Cena":"2349.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"LG 55UK6500","Cena":"2217.99"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Smart_TV":"Android TV","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Sony Bravia OLED KD-55AF8","Cena":"7898.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"LG 49SK8100","Cena":"2695.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"1800 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Samsung UE43NU7472","Cena":"2071.75"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Philips 43PUS7303","Cena":"2147.98"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Panasonic TX-55FX780E","Cena":"3999.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Smart_TV":"System producenta","Rozdzielczość":"4K UHD","Przekątna_ekranu":"55 cali","Nazwa":"Panasonic TX-55FZ800E","Cena":"7448.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"60 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"65 cali","Nazwa":"Philips 65PUS7303","Cena":"4400.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"2200 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"49 cali","Nazwa":"Panasonic TX-49FX780E","Cena":"3675.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }
+{"Typ":"Telewizor","Częstotliwość_odświeżania":"100 Hz","Rozdzielczość":"4K UHD","Przekątna_ekranu":"43 cale","Nazwa":"Sony Bravia KD-43XF7005","Cena":"1949.0"}
+{ "index" : { "_index" : "products_tv", "_type" : "_doc" } }

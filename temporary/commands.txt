@@ -1,0 +1,1549 @@
+GET /_cat/nodes?v
+
+
+GET /_cat/indices?v
+
+GET /_nodes
+
+
+#SHARD = THREAD
+#Przypomnienie: shard to dzielenie zbioru...
+#5 shardow moze byc na 1 instancji, ale mozna je dac na dwie insancje bez replikowania, np:
+PUT /products
+{
+  "settings": {
+    "number_of_replicas": 0,
+    "number_of_shards": 5
+  }
+}
+#Albo tutaj przyklad, gdzie robimy update replik:
+PUT /products/_settings
+{
+    "number_of_replicas": 1
+}
+#Przypomnienie: nie da sie zedytowac ilosc shardow, poniewaz nie da sie zmienic algorytmu hashCode. Nalezy usunac indeks (tabele) i stworzyc od nowa.
+
+
+POST /products/_refresh
+
+PUT /products
+
+DELETE /products
+
+GET /_cat/health?v
+
+
+
+GET /products/_mapping
+
+
+GET /bank/_search
+{
+  "query": {
+    "bool": {
+      "must": { "match_all": {} },
+      "filter": {
+        "range": {
+          "balance": {
+            "gte": 20000,
+            "lte": 30000
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#Zapytania
+GET /products/_search?q="Uczenie maszynowe"
+
+GET /products/_search?q="Szkoła"
+
+POST /products/_search
+{
+  "query": {
+    "query_string": {
+      "query": "Uczenie maszynowe"
+    }
+  }
+}
+
+GET /products/_mapping
+
+GET /products/_search?q=Vaughn Vernon
+
+PUT /products/_doc/ldxyY20BzsAJacYxuTtJ
+{
+  "Typ" : "Książka",
+  "Nazwa" : "DDD dla architektów oprogramowania - Vaughn Vernon [KSIĄŻKA]",
+  "Autor" : "Vaughn Vernon",
+  "Cena" : 71.18
+}
+
+POST /products/_update/ldxyY20BzsAJacYxuTtJ
+{
+    "doc" : {
+        "Cena" : 81.18
+    }
+}
+
+POST /products/_update/ldxyY20BzsAJacYxuTtJ
+{
+    "script": {
+        "source": "ctx._source.Cena += params.value",
+        "lang": "painless",
+        "params" : {
+            "value" : 10
+        }
+    }
+}
+
+#################################
+#Elasticsearch - statyczne vs. dynamiczne typy danych
+
+
+GET /products
+GET /new_products
+
+DELETE products
+DELETE products2
+DELETE new_products
+
+PUT /products
+{
+  "mappings": {
+    "properties": {
+      "Cena": {
+        "type": "float"
+      }
+    }
+  }
+}
+
+PUT /new_products
+{
+  "mappings": {
+    "properties": {
+      "Cena": {
+        "type": "integer"
+      }
+    }
+  }
+}
+
+POST /products/_doc/ldxyY20BzsAJacYxuTtJ
+{
+  "Typ" : "Książka",
+  "Nazwa" : "DDD dla architektów oprogramowania - Vaughn Vernon [KSIĄŻKA]",
+  "Autor" : "Vaughn Vernon",
+  "Cena" : 71.18
+}
+
+POST _reindex
+{
+  "source": {
+    "index": "products"
+  },
+  "dest": {
+    "index": "new_products"
+  }
+}
+
+GET /products/_doc/ldxyY20BzsAJacYxuTtJ
+GET /new_products/_doc/ldxyY20BzsAJacYxuTtJ
+GET /new_products/_mapping
+
+#Wnioski: korzystac ze statycznych typow zawsze. 
+
+POST /testa/_doc
+{
+  "b": 123
+}
+
+GET /testa/_mapping
+
+POST /testa/_doc
+{
+  "b": "123"
+}
+
+GET /testa/_doc/
+
+#Elasticsearch - szablony indeksów
+PUT /_template/products_template
+{
+  "index_patterns": ["products*"],
+  "settings": {
+    "number_of_replicas": 1,
+    "number_of_shards" : 1
+  },
+  "mappings": {
+      "numeric_detection": true
+  }
+}
+
+GET /_template/products_template
+
+GET /products/
+GET /products2/
+
+POST _reindex
+{
+  "source": {
+    "index": "products"
+  },
+  "dest": {
+    "index": "products2"
+  }
+}
+
+GET /_cat/templates?v
+
+#################################
+#Aliasy
+
+GET /products/_alias
+
+PUT test     
+PUT test_2   
+POST /_aliases
+{
+    "actions" : [
+        { "add":  { "index": "test_2", "alias": "test" } },
+        { "remove_index": { "index": "test" } }
+    ]
+}
+
+GET /test/
+GET /test_2/
+
+#################################
+#NRT - sposob przebudowania indeksow
+
+DELETE /training
+
+#W indeksie pojawiaja sie wyniki co 60s
+PUT /training
+{      
+  "settings": {
+    "refresh_interval": "60s",
+    "number_of_shards": 5
+    }
+}
+
+#Wylaczenie refreshu
+PUT /training
+{      
+  "settings": {
+    "refresh_interval": "-1",
+    "number_of_shards": 5
+    }
+}
+
+POST /training/_doc
+{
+  "text": "abc"
+}
+
+GET /training/_search
+
+POST /training/_doc?refresh
+{
+    "text" : "abc2"
+}
+#Odswiez natychmiast
+POST /training/_refresh
+
+GET /_cat/shards/training?v
+
+#################################
+#Routing (synonym partitioning)
+
+DELETE /products
+PUT /products
+{
+  "settings": {
+    "number_of_replicas": 0,
+    "number_of_shards": 5
+  }
+}
+
+GET /products/_search?q=Typ:Laptop&size=1100
+GET /products/_search?q=Typ:Książka
+GET /products/_search?q=Typ:Laptop&routing=Laptop
+GET /products/_search?q=Typ:Laptop&routing=Książka
+GET /products/_search?q=Typ:Laptop&routing=Książka2
+GET /products/_search?q=Typ:Laptop&routing=Książka3
+{
+  "profile": "true"
+}
+
+#################################
+#Analiza tekstu (full text search entry)
+GET /_analyze
+{
+  "text" : "Mark’s car will be sold tommorow."
+}
+
+GET /_analyze
+{
+  "analyzer" : "standard",
+  "text" : "Mark’s car will be sold tommorow."
+}
+
+GET /_analyze
+{
+  "analyzer" : "keyword",
+  "text" : "Ala ma żółwia"
+}
+
+GET /_analyze
+{
+  "analyzer" : "english",
+  "text" : "Ala’s dog is crazily dangerous"
+}
+
+GET /_analyze
+{
+  "analyzer" : "polish",
+  "text" : "Ala ma żółwia"
+}
+
+GET /_analyze
+{
+  "tokenizer" : "standard",
+  "filter" : ["icu_folding"],
+  "text" : "Ala ma żółwia"
+}
+
+#Segmenty lucynowe
+GET /products/_segments
+
+#################################
+#FElasticsearch - term vs. match
+DELETE /products
+
+GET /products/_search
+{
+  "query": {
+    "match": {
+      "Nazwa":  "MacBook Pro"
+    }
+  },
+  "size": 30
+}
+
+
+#Kolejnosc slow wazna
+GET /products/_search
+{
+  "query": {
+    "match_phrase": {
+      "Nazwa": "MacBook Pro"
+    }
+  },
+  "size": 30
+}
+
+#Literowka
+GET /products/_search
+{
+  "query": {
+    "match_phrase": {
+      "Nazwa": "MacBok Pro"
+    }
+  },
+  "size": 30
+}
+
+#Dziala jak exact, nie przechodzi przez lancuch (tok+norm)
+GET /products/_search
+{
+  "query": {
+    "terms": {
+      "Nazwa": [
+        "macbook",
+        "pro"
+      ]
+    }
+  },
+  "size": 30
+}
+
+GET /products/_search
+{
+  "query": {
+    "term": {
+      "Typ": {
+        "value": "książka"
+      }
+    }
+  },
+  "size": 30
+}
+
+#Nie znajdzie, poneiwaz ksiazka jest po normalizacji mala litera
+GET /products/_search
+{
+  "query": {
+    "term": {
+      "Typ": {
+        "value": "Książka"
+      }
+    }
+  },
+  "size": 30
+}
+
+
+GET /products/_search
+{
+  "query": {
+    "term": {
+      "Nazwa": {
+        "value": "MacBook Pro"
+      }
+    }
+  },
+  "size": 30
+}
+
+#################################
+# ICU + PL
+GET /products/_search
+{
+  "query": {
+    "match_phrase": {
+      "Nazwa": "Złota Księga Bajek"
+    }
+  }
+}
+
+
+GET /products/_search
+{
+  "query": {
+    "match_phrase": {
+      "Nazwa": "Złota Księga Bajek"
+    }
+  }
+}
+
+DELETE /products
+
+PUT /products
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "pl_stem_folding": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": [
+            "polish_stem",
+            "icu_folding"
+          ],
+          "char_filter": [
+            "icu_normalizer"
+          ]
+        },
+        "no_diacritics": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": [
+            "icu_folding"
+          ],
+          "char_filter": [
+            "icu_normalizer"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "Nazwa": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          },
+          "sort_pl": {
+            "type": "icu_collation_keyword",
+            "index": false,
+            "language": "pl",
+            "country": "PL"
+          },
+          "pl": {
+            "type": "text",
+            "analyzer": "polish",
+            "search_analyzer": "polish"
+          },
+          "pl_icu": {
+            "type": "text",
+            "analyzer": "pl_stem_folding",
+            "search_analyzer": "pl_stem_folding"
+          },
+          "no_diacritics": {
+            "type": "text",
+            "analyzer": "no_diacritics",
+            "search_analyzer": "no_diacritics"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+GET /products/_search
+{
+  "query": {
+    "match_phrase": {
+      "Nazwa.no_diacritics": "Zlota Ksiega Bajek"
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "query_string": {
+      "fields": ["*"],
+      "query": "Zlota Ksiega Bajek"
+    }
+  }
+}
+
+
+#CH*** sortuje polskie:
+GET /products/_search
+{
+  "query": {
+    "match": {
+      "Typ": "Książka"
+    }
+  },
+  "sort": [
+    {
+      "Nazwa.keyword": {
+        "order": "desc"
+      }
+    }
+  ],
+  "_source": "Nazwa",
+  "size": 100
+}
+
+
+POST /products/_doc
+{
+  "Typ" : "Książka",
+  "Nazwa" : "Źrebaczek"
+}
+
+
+POST /products/_doc
+{
+  "Typ" : "Książka",
+  "Nazwa" : "Acki"
+}
+
+POST /products/_doc
+{
+  "Typ" : "Książka",
+  "Nazwa" : "Ącki"
+}
+
+GET /products/_search
+{
+  "query": {
+    "match": {
+      "Typ": "Książka"
+    }
+  },
+  "sort": [
+    {
+      "Nazwa.sort_pl": {
+        "order": "desc"
+      }
+    }
+  ],
+  "_source": "Nazwa",
+  "size": 100
+}
+
+POST /multilang/_search
+{
+ "query": {
+   "multi_match": {
+     "query": "Komputer",
+     "fields": ["*_en"]
+   }
+ }
+}
+
+GET /products/_analyze/
+{
+  "field": "Nazwa.keyword",
+  "text": ["Złota Księga Bajek"]
+}
+
+GET /products/_doc/qsLIaG0BfuYxDTQBi0dW/
+
+
+#################################
+#Bool query + boosting
+
+
+GET /products/_search
+{
+  "query": {
+    "query_string": {
+      "fields": ["*"],
+      "query": "(Linux Bezpieczeństwo) AND Cena:[* TO 50]"
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "query_string": {
+      "fields": ["*"],
+      "query": "Linux Bezpieczeństwo AND Cena:<50"
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "query_string": {
+      "fields": ["*"],
+      "query": "(Linux Bezpieczeństwoz~) AND Cena:<50",
+      "default_operator": "AND",
+      "fuzziness": 1
+    }
+  },
+  "explain": true
+}
+
+GET /products/_mapping
+
+GET /products/_search
+{
+  "query": {
+    "bool": {
+      "filter": [
+        {
+          "term": {
+            "Wydawnictwo": "helion"
+          }
+        },
+        {
+          "range": {
+            "Cena": {
+              "lte": 50
+            }
+          }
+        }
+      ],
+      "must": [
+        {
+          "match": {
+            "Nazwa": {
+              "query": "Linóx bezpieczeństwo~",
+              "operator": "and",
+              "fuzziness": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+
+GET /products/_search
+{
+  "query": {
+    "bool": {
+      "filter": [
+        {
+          "term": {
+            "Wydawnictwo": "helion"
+          }
+        },
+        {
+          "range": {
+            "Cena": {
+              "lte": 50
+            }
+          }
+        }
+      ],
+      "must": [
+        {
+          "dis_max": {
+            "queries": [
+              {
+                "match": {
+                  "Nazwa": {
+                    "query": "Linóx bezpieczeństwo",
+                    "operator": "and",
+                    "fuzziness": 1,
+                    "boost": 1
+                  }
+                }
+              },
+              {
+                "match": {
+                  "Nazwa": {
+                    "query": "Linux bezpieczeństwo",
+                    "operator": "and",
+                    "boost": 10
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "boosting": {
+      "negative": {
+        "match": {
+          "Autor": "Nemeth"
+        }
+      },
+      "negative_boost": 0.2, 
+      "positive": {
+        "bool": {
+          "must": [
+            {
+              "dis_max": {
+                "queries": [
+                  {
+                    "match": {
+                      "Nazwa": {
+                        "query": "Linóx",
+                        "operator": "and",
+                        "fuzziness": 1,
+                        "boost": 1
+                      }
+                    }
+                  },
+                  {
+                    "match": {
+                      "Nazwa": {
+                        "query": "Linux",
+                        "operator": "and",
+                        "boost": 10
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+
+POST /products/_search
+{
+ "query": {
+   "function_score": {
+     "query": {
+       "match": {
+         "Nazwa": "Linux"
+       }
+     },
+     "functions": [
+       {
+         "field_value_factor": {
+           "field": "Cena",
+           "modifier": "reciprocal"
+         }
+       }
+     ]
+   }
+ }
+}
+
+#################################
+#Function score
+
+PUT cities
+{
+  "settings": {
+    "number_of_shards": 1,
+    "analysis": {
+      "analyzer": {
+        "icu": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": [
+            "icu_folding"
+          ],
+          "char_filter": [
+            "icu_normalizer"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "city": {
+        "type": "text",
+        "analyzer": "icu",
+        "fields": {
+          "std": {
+            "type": "text",
+            "analyzer": "standard"
+          },
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+POST /cities/_doc
+{
+  "city" : "Kraków"
+}
+
+POST /cities/_doc
+{
+  "city" : "Krąków"
+}
+
+POST /cities/_doc
+{
+  "city" : "Kraków 123"
+}
+
+POST /cities/_search
+{
+  "query": {
+    "match": {
+      "city": "Krąków"
+    }
+  }
+}
+
+POST /cities/_search
+{
+  "query": {
+    "function_score": {
+      "query": {
+        "match": {
+          "city": "Krąków"
+        }
+      },
+      "functions": [
+        {
+          "filter": {
+            "match": {
+              "city.std": "Krąków"
+            }
+          },
+          "weight": 2
+        }
+      ]
+    }
+  }
+}
+
+POST /cities/_search/template
+{
+  "source": {
+    "query": {
+      "function_score": {
+        "query": {
+          "match": {
+            "city": "{{city}}"
+          }
+        },
+        "functions": [
+          {
+            "filter": {
+              "match": {
+                "city.std": "{{city}}"
+              }
+            },
+            "weight": 2
+          }
+        ]
+      }
+    }
+  },
+  "params": {
+    "city": "Krąków"
+  }
+}
+
+#################################
+#Aggregacje
+PUT /products2
+{
+  "mappings": {
+    "properties": {
+      "Cena": {
+        "type": "float"
+      }
+    }
+  }
+}
+
+POST _reindex
+{
+  "source": {
+    "index": "products"
+  },
+  "dest": {
+    "index": "products2"
+  }
+}
+
+#Ile wynosi mediana cen z wszystkich produktów? 
+POST /products2/_search
+{
+  "aggs": {
+    "NAME": {
+      "median_absolute_deviation": {
+        "field": "Cena"
+      }
+    }
+  }, 
+  "size": 0
+}
+
+#Ile produktów posiada cenę wyższą niż 1000zł?
+POST /products2/_search
+{
+  "size": 0,
+  "aggs": {
+    "NAME": {
+      "filter": {
+        "range": {
+          "Cena": {
+            "gte": 1000
+          }
+        }
+      }
+    }
+  }
+}
+
+#Ile wynosi średnia cena dla każdego typu produktu?
+POST /products2/_search
+{
+  "size": 0,
+  "aggs": {
+    "types": {
+      "terms": {
+        "field": "Typ.keyword",
+        "size": 10,
+        "missing": "N/A"
+      },
+      "aggs": {
+        "avg_price": {
+          "avg": {
+            "field": "Cena"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#Jak wygląda rozkład ilościowy w każdym typie produktu, dla produktów których nazwa rozpoczyna się na literę “A”?
+POST /products2/_search
+{
+  "size": 0,
+  "aggs": {
+    "typesa_nasza_nazwa": {
+      "terms": {
+        "field": "Typ.keyword",
+        "size": 10,
+        "missing": "N/A"
+      },
+      "aggs": {
+        "begins_with_a": {
+          "filter": {
+            "match_phrase_prefix": {
+              "Nazwa": "A"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#Rozszerz ćwiczenie 2, aby zamiast liczby produktów o wysokiej cenie agregacja zwracała procentowy udział tych produktów w stosunku do wszystkich produktów (ilość o wysokiej cenie / ilość wszystkich produktów)
+#Zadanie ultra-zaawansowane, nie musisz rozumiec
+POST /products2/_search
+{
+  "size": 0,
+  "aggs": {
+    "all": {
+      "filters": {
+        "filters": {
+          "all": {
+            "match_all": {}
+          }
+        }
+      },
+      "aggs": {
+        "high_prices": {
+          "filter": {
+            "range": {
+              "Cena": {
+                "gte": 1000
+              }
+            }
+          }
+        },
+        "high_price_percentage": {
+          "bucket_script": {
+            "buckets_path": {
+              "high_price": "high_prices._count",
+              "total": "_count"
+            },
+            "script": "params.high_price / params.total * 100"
+          }
+        }
+      }
+    }
+  }
+}
+
+#################################
+#%Like% NGrams
+#Wyszukaj książki, których nazwisko autora zawiera frazę “hal”, wykorzystując zapytanie typu query_string z gwiazdkami.
+
+POST /products2/_search
+{
+  "query": {
+    "query_string": {
+      "default_field": "Autor",
+      "query": "*hal*"
+    }
+  }
+}
+GET /products/_search?q=Autor:*hal*
+
+#Powtórz zadanie #1, wykorzystując zapytanie typu wildcard.
+POST /products2/_search
+{
+  "query": {
+    "wildcard": {
+      "Autor": {
+        "value": "*hal*"
+      }
+    }
+  }
+}
+
+#Utwórz strukturę indeksu, tak aby tworzyła trigramy dla pola Autor.
+PUT /products3
+{
+   "settings": {
+    "analysis": {
+      "analyzer": {
+        "trigram": {
+          "type": "custom",
+          "tokenizer": "trigram_tokenizer",
+          "filter": [
+            "lowercase"
+          ]
+        }
+      },
+      "tokenizer": {
+        "trigram_tokenizer": {
+          "type": "ngram",
+          "min_gram": 3,
+          "max_gram": 3
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "Autor": {
+        "type": "text",
+        "fields": {
+          "ng": {
+            "type": "text",
+            "analyzer": "trigram"
+          }
+        }
+      }
+    }
+  }
+}
+POST _reindex
+{
+  "source": {
+    "index": "products2"
+  },
+  "dest": {
+    "index": "products3"
+  }
+}
+
+#Albo
+PUT products
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "trigram": {
+          "type": "custom",
+          "tokenizer": "trigram_tokenizer",
+          "filter": [
+            "lowercase"
+          ]
+        }
+      },
+      "tokenizer": {
+        "trigram_tokenizer": {
+          "type": "ngram",
+          "min_gram": 3,
+          "max_gram": 3
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "Autor": {
+        "type": "text",
+        "fields": {
+          "ng": {
+            "type": "text",
+            "analyzer": "trigram"
+          }
+        }
+      }
+    }
+  }
+}
+
+#Odszukaj książki, ale nie wykorzystując gwiazdek i zapytań wildcard, lecz ngramy.
+POST /products3/_search
+{
+  "query": {
+    "query_string": {
+      "default_field": "Autor.ng",
+      "query": "hal"
+    }
+  }
+}
+#Tozsame
+GET /products3/_search?q=Autor.ng:hal
+
+GET /products3/_search
+{
+  "query": {
+    "match": {
+      "Autor.ng": "Joseph Albahari"
+    }
+  }
+}
+
+GET /products3/_search
+{
+  "query": {
+    "match": {
+      "Autor.ng": {
+        "query": "Joseph Albahari",
+        "operator": "or",
+        "analyzer": "standard"
+      }
+    }
+  }
+}
+
+GET /products3/_mapping
+
+GET /products3/_analyze
+{
+  "field": "Autor.ng",
+  "text": "Joseph Albahari"
+}
+
+#################################
+#autocomplete
+#Na podstawowym indeksie z produktami wykonaj zapytanie, które wyszuka wszystkie książki, których nazwa zawiera słowa zaczynające się od znaków “Jav”. Kontynuuj wpisywanie frazy wyszukującej znak po znaku, aż do uzyskania słowa “Javascript”.
+
+POST /products/_search
+{
+  "query": {
+    "query_string": {
+      "query": "Nazwa:Java*"
+    }
+  }
+}
+
+POST /products/_search
+{
+  "query": {
+    "match_phrase_prefix": {
+      "Nazwa": "Javas"
+    }
+  }
+}
+
+#Wykonaj to samo zadanie, wykorzystując pole Nazwa.edge, które będzie zawierało ngramy o długości 3-30, ale tylko te od początku słowa, np. dla słowa “Java” -> “Jav”, “Java”.
+PUT /products_edge
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "edge": {
+          "type": "custom",
+          "tokenizer": "edgengram_tokenizer",
+          "filter": [
+            "lowercase"
+          ]
+        }
+      },
+      "tokenizer": {
+        "edgengram_tokenizer": {
+          "type": "edge_ngram",
+          "min_gram": 3,
+          "max_gram": 30,
+          "token_chars": [
+            "letter",
+            "digit"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "Nazwa": {
+        "type": "text",
+        "fields": {
+          "edge": {
+            "type": "text",
+            "analyzer": "edge"
+          }
+        }
+      },
+      "Wydawnictwo": {
+        "type": "text",
+        "fields": {
+          "edge": {
+            "type": "text",
+            "analyzer": "edge"
+          }
+        }
+      },
+      "Autor": {
+        "type": "text",
+        "fields": {
+          "edge": {
+            "type": "text",
+            "analyzer": "edge"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+POST _reindex
+{
+  "source": {
+    "index": "products3"
+  },
+  "dest": {
+    "index": "products_edge"
+  }
+}
+
+POST /products_edge/_search
+{
+  "query": {
+    "match": {
+      "Nazwa.edge": {
+        "query": "Javas"
+      }
+    }
+  }
+}
+
+
+POST /products_edge/_search
+{
+  "query": {
+    "match": {
+      "Nazwa.edge": {
+        "analyzer": "standard",
+        "query": "Javas"
+      }
+    }
+  }
+}
+
+
+POST /products_edge/_search
+{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "Nazwa.edge": {
+              "query": "Javas"
+            }
+          }
+        },
+        {
+          "match": {
+            "Nazwa.edge": {
+              "analyzer": "standard",
+              "query": "Javas",
+              "boost": 5
+            }
+          }
+        },
+        {
+          "fuzzy": {
+            "Nazwa.edge": {
+              "value": "Javas",
+              "boost": 0.1,
+              "fuzziness": 2
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+#Zajebiste!!!
+POST /products_edge/_search/template
+{
+  "params": {
+    "queryPhrase": "Javas"
+  },
+  "source": {
+    "query": {
+      "bool": {
+        "should": [
+          {
+            "match": {
+              "Nazwa.edge": {
+                "analyzer": "standard",
+                "query": "{{queryPhrase}}",
+                "boost": 5
+              }
+            }
+          },
+          {
+            "match": {
+              "Nazwa.edge": {
+                "query": "{{queryPhrase}}",
+                "boost": 1
+              }
+            }
+          },
+          {
+            "fuzzy": {
+              "Nazwa.edge": {
+                "value": "{{queryPhrase}}",
+                "boost": 0.1
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+
+#Wykonaj zadanie jest raz wykorzystująć mechanizm completion_suggester.
+
+PUT /products_suggest
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "edge": {
+          "type": "custom",
+          "tokenizer": "edgengram_tokenizer",
+          "filter": [
+            "lowercase"
+          ]
+        }
+      },
+      "tokenizer": {
+        "edgengram_tokenizer": {
+          "type": "edge_ngram",
+          "min_gram": 3,
+          "max_gram": 30,
+          "token_chars": [
+            "letter",
+            "digit"
+          ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "suggest": {
+        "type": "completion"
+      },
+      "Nazwa": {
+        "type": "text",
+        "copy_to": "suggest"
+      }
+    }
+  }
+}
+
+POST _reindex
+{
+  "source": {
+    "index": "products3"
+  },
+  "dest": {
+    "index": "products_suggest"
+  }
+}
+
+
+POST /products_suggest/_search
+{
+  "suggest": {
+    "nazwa_suggest": {
+      "text": "javasc",
+      "completion": {
+        "field": "suggest"
+      }
+    }
+  }
+}
+
+#################################
+#Highlighting
+
+GET /restaurants/_search
+{
+  "query": {
+    "query_string": {
+      "query": "Ba*"
+    }
+  },
+  "highlight": {
+    "fields": {
+      "name": {}
+    }
+  }
+}
+
+GET /restaurants/_search
+{
+  "query": {
+    "term": {
+      "name.keyword": {
+        "value": "B & M Hot Bagel & Grocery"
+      }
+    }
+  },
+  "highlight": {
+    "fields": {
+      "name": {}
+    }
+  }
+}
+
+#################################
+#Percolator
+DELETE /percolation
+
+PUT /percolation
+{
+  "mappings": {
+    "properties": {
+      "text": {
+        "type": "text"
+      },
+      "query_sub": {
+        "type": "percolator"
+      }
+    }
+  }
+}
+
+#Subskrypcja danego uzytkownika: Chce sobie szukac szkolenia
+PUT /percolation/_doc/q1?refresh
+{
+  "email": "Lukasz.L@gl",
+  "query_sub": {
+    "match": {
+      "text": "Szkolenie"
+    }
+  }
+}
+
+#Subskrypcja danego uzytkownika: Chce wszystko o elasticsearchu
+PUT /percolation/_doc/q2?refresh
+{
+  "query_sub": {
+    "match": {
+      "text": "Elasticsearch"
+    }
+  }
+}
+
+#Pojawia sie nowy szkolenie - dostajemy info, kto sie zasubskrybowal
+GET /percolation/_search
+{
+  "query": {
+    "percolate": {
+      "field": "query_sub",
+      "document": {
+        "text": "Szkolenie z NoSQL"
+      }
+    }
+  }
+}
+
+#Pojawia sie nowy szkolenie - dostajemy info, kto sie zasubskrybowal
+GET /percolation/_search
+{
+  "query": {
+    "percolate": {
+      "field": "query_sub",
+      "document": {
+        "text": "Szkolenie z Elasticsearch"
+      }
+    }
+  }
+}
+

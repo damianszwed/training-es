@@ -1,0 +1,181 @@
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"HELION","Rok_wydania":"2012","Nazwa":"Język C++. Szkoła programowania","Autor":"Prata S.","Cena":"56.73"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Czysty kod","Autor":"Robert C. Martin","Cena":"37.66"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Java podstawy - Cay S. Horstmann (twarda) [KSIĄŻKA]","Autor":"Cay S. Horstmann","Cena":"47.93"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Excel 2016 pl. Biblia - John Walkenbach (twarda) [KSIĄŻKA]","Autor":"John Walkenbach","Cena":"64.84"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"GREG","Nazwa":"Mądre bajki","Autor":"Antosiewicz Agnieszka","Cena":"5.08"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Opus magnum C++11. Programowanie w języku C++","Autor":"Grębosz Jerzy","Cena":"88.93"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Unix i Linux. Przewodnik administratora systemów. Wydanie V","Autor":"Evi Nemeth, Garth Snyder, Trent R. Hein , Ben Whaley , Dan Mackin","Cena":"103.47"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"C# 7.0 w pigułce - Joseph Albahari [KSIĄŻKA]","Autor":"Joseph Albahari","Cena":"74.05"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Zakamarki","Nazwa":"Hurra są Święta","Autor":"Nilson Ulf","Cena":"27.63"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2011","Nazwa":"Python. Wprowadzenie. Wydanie IV","Autor":"Mark Lutz","Cena":"81.99"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2015","Nazwa":"JavaScript i jQuery. Interaktywne strony WWW dla każdego","Autor":"Jon Duckett","Cena":"59.66"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Nazwa":"Wprowadzenie do algorytmów","Autor":"Cormen Thomas H., Leiserson Charles E., Rivest Roland L., Stein Clifford","Seria":"FUNDAMENTY INFORMATYKI","Cena":"89.4"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Python dla każdego","Autor":"Michael Dawson","Cena":"36.5"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Python. Instrukcje dla programisty - Eric Matthes","Autor":"Eric Matthes","Cena":"51.3"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"English 4 IT. Praktyczny kurs języka angielskiego dla specjalistów IT i nie tylko - Beata Błaszczyk","Autor":"Beata Błaszczyk","Cena":"23.53"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Czysta architektura. Struktura i design oprogramowania. Przewodnik dla profesjonalistów - Robert C. Martin","Autor":"Robert C. Martin","Cena":"39.98"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Wzorce projektowe. Rusz głową!","Autor":"Elisabeth Freeman, Eric Freeman, Bert Bates, Kat","Seria":"HEAD FIRST","Cena":"48.51"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Sztuka podstępu Łamałem ludzi nie hasła w2 - Kevin D. Mitnick (Author), William L. Simon (Author), Steve Wozniak (Foreword)","Autor":"Kevin D. Mitnick (Author), William L. Simon (Author), Steve Wozniak (Foreword)","Cena":"28.97"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Java w 21 dni. Wydanie VII - Rogers Cadenhead","Autor":"Rogers Cadenhead","Cena":"57.13"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Automatyzacja nudnych zadań z Pythonem. Nauka programowania - Al Sweigart [KSIĄŻKA]","Autor":"Al Sweigart","Cena":"54.13"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"ASP.NET Core MVC 2. Zaawansowane programowanie. Wydanie VII - Adam Freeman","Autor":"Adam Freeman","Cena":"74.22"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Thinking in Java Edycja polska. - Bruce Eckel","Autor":"Bruce Eckel","Cena":"85.93"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Java. Efektywne programowanie. Wydanie III - Joshua Bloch","Autor":"Joshua Bloch","Cena":"48.1"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Rok_wydania":"2015","Nazwa":"Testowanie i jakość oprogramowania. Metody, narzędzia, techniki","Autor":"Adam Roman","Cena":"107.27"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"C# 7.1 i .NET Core 2.0 dla Programistów Aplikacji Wieloplatformowych - Mark J. Price [KSIĄŻKA]","Autor":"Mark J. Price","Cena":"60.28"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Python. Rusz głową! Wydanie II - Paul Barry","Autor":"Paul Barry","Cena":"56.68"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Python w analizie danych. Przetwarzanie danych za pomocą pakietów Pandas i NumPy oraz środowiska IPython. Wydanie II - Wes McKinney","Autor":"Wes McKinney","Cena":"51.27"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"MŁODZI GIGANCI PROGRAMOWANIA SCRATCH","Autor":"RADOSŁAW KULESZA, SEBASTIAN LANGA, DAWID LEŚNIAKIEWICZ","Cena":"21.48"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"C#. Rusz głową! Wydanie III","Autor":"Jennifer Greene, Andrew Stellman","Cena":"56.65"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"DATA SCIENCE OD PODSTAW ANALIZA DANYCH W PYTHONIE","Autor":"JOEL GRUS","Cena":"34.18"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Rok_wydania":"2017","Nazwa":"Testowanie I Jakość Oprogramowania Modele Techniki Narzędzia Wyd. 2 - Adam Roman","Autor":"Adam Roman","Cena":"110.26"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Język C# 6.0 I Platforma .Net 4.6 - Andrew Troelsen","Cena":"116.86"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2011","Nazwa":"Java. Rusz głową! Wydanie II","Autor":"Bert Bates, Kathy Sierra","Cena":"59.87"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Media Service Zawada","Nazwa":"Psi Patrol Kraina opowieści Pieski ratują święta","Cena":"9.89"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Algorytmy. Ilustrowany przewodnik - Aditya Bhargava","Autor":"Aditya Bhargava","Cena":"32.86"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Logo design love. Tworzenie genialnych logotypów. Nowa odsłona - David Airey [KSIĄŻKA]","Autor":"David Airey","Cena":"33.94"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Kali Linux. Testy penetracyjne i bezpieczeństwo sieci dla zaawansowanych. Wydanie II - Vijay Kumar Velu","Autor":"Vijay Kumar Velu","Cena":"39.6"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Java. Efektywne programowanie. - Joshua Bloch","Autor":"Joshua Bloch","Cena":"39.14"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Adobe Photoshop CC/CC PL. Oficjalny podręcznik","Autor":"Andrew Faulkner, Conrad Chavez","Cena":"50.05"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Rok_wydania":"2016","Nazwa":"Nauka programowania z Minecraftem","Autor":"Craig Richardson","Cena":"51.06"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Java Techniki zaawansowane","Autor":"Horstmann Cay S.","Cena":"83.21"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"HTML,CSS i JavaScript dla każdego. Wydanie VII - Laura Lemay, Rafe Colburn, Jennifer Kyrnin","Autor":"Laura Lemay, Rafe Colburn, Jennifer Kyrnin","Cena":"57.0"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Uczenie maszynowe z użyciem Scikit-Learn i TensorFlow - Aurélien Géron","Autor":"Aurélien Géron","Cena":"56.71"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Egmont","Nazwa":"Minecraft Podręcznik podboju Netheru i kresu","Autor":"Milton Stephanie","Cena":"17.61"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Excel 2016 PL. Programowanie w VBA, Vademecum Walkenbacha - Michael Alexander [KSIĄŻKA]","Autor":"Michael Alexander","Cena":"57.49"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Egmont","Nazwa":"Minecraft. Podręcznik użytkowania czerwonego ...","Autor":"Jelley Craig","Cena":"18.54"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Czysty kod w c++ 17. Oprogramowanie łatwe w utrzymaniu - Stephan Roth [KSIĄŻKA]","Autor":"Stephan Roth","Cena":"33.96"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Html I Css Zaprojektuj I Zbuduj Witrynę Www Podręcznik Front End Developera - Jon Duckett","Autor":"Jon Duckett","Cena":"51.66"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Pragmatyczny programista. Od czeladnika do mistrza - David Thomas [KSIĄŻKA]","Autor":"David Thomas","Cena":"39.73"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Linux Profesjonalne Administrowanie Systemem Wyd. 2 - Dennis Matotek","Cena":"86.77"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Programowanie W Javie Solidna Wiedza W Praktyce Wyd. 11 - Paul Deitel","Cena":"39.9"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Promise","Rok_wydania":"2018","Nazwa":"Nowoczesna Java w działaniu - Raoul-Gabriel Urma, Mario Fusco, Alan Mycroft","Autor":"Raoul-Gabriel Urma, Mario Fusco, Alan Mycroft","Cena":"77.98"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"SIECI KOMPUTEROWE UJĘCIE CAŁOŚCIOWE WYD. 7","Autor":"JAMES KUROSE, KEITH ROSS","Cena":"79.73"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Adobe After Effects CC Oficjalny podręcznik - Lisa Fridsma [KSIĄŻKA]","Autor":"Lisa Fridsma","Cena":"39.6"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Tako","Nazwa":"Najlepsza zupa na świecie","Cena":"21.71"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Rok_wydania":"2017","Nazwa":"Data Science i uczenie maszynowe - Marcin Szeliga","Autor":"Marcin Szeliga","Cena":"60.41"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2015","Nazwa":"Domain-Driven Design. Zapanuj nad złożonym systemem informatycznym","Autor":"Eric Evans","Cena":"60.54"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Apokalipsa zombie nadchodzi! Obroń swoją bazę za pomocą prostych obwodów, Arduino i Raspberry Pi - Simon Monk","Autor":"Simon Monk","Cena":"14.7"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"CCNA 200-125. Zostań administratorem sieci komputerowych Cisco - Adam Józefiok","Autor":"Adam Józefiok","Cena":"115.07"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Angular. Profesjonalne techniki programowania. Wydanie II - Adam Freeman","Autor":"Adam Freeman","Cena":"69.12"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Kotlin w Akcji - Dmitry Jemerov, Svetlana Isakova [KSIĄŻKA]","Autor":"Dmitry Jemerov, Svetlana Isakova","Cena":"43.49"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Algorytmy - Sedgewick Robert, Wayne Kevin","Autor":"Sedgewick Robert, Wayne Kevin","Cena":"85.81"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Nazwa":"Język C++. Kompendium wiedzy","Autor":"Stroustrup Bjarne, Piwko Łukasz","Cena":"83.77"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"PWN NAUKOWY","Nazwa":"Programowanie wieloplatformowe z C++ i wxWidgets 3","Autor":"Bartosz W. Warzocha","Cena":"101.15"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Septem","Rok_wydania":"2014","Nazwa":"Excel 2013 PL. Programowanie w VBA dla bystrzaków","Autor":"John Walkenbach","Cena":"29.9"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Promise","Rok_wydania":"2017","Nazwa":"Egzamin 70-740: Windows Server 2016 - instalacja, funkcje magazynowe i obliczeniowe - Craig Zacker","Autor":"Craig Zacker","Cena":"60.07"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Media Service Zawada","Nazwa":"Psi Patrol Witaj w Klubie! Tom 1","Cena":"9.99"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2010","Nazwa":"Wzorce projektowe. Elementy oprogramowania obiektowego wielokrotnego użytku","Autor":"Erich Gamma, Richard Helm, Ralph Johnson, John M","Cena":"30.91"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Promise","Rok_wydania":"2016","Nazwa":"Podstawy języka T-SQL Microsoft SQL Server 2016 i Azure SQL Database - Itzik Ben-Gan","Autor":"Itzik Ben-Gan","Cena":"60.04"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"ZIELONA SOWA","Nazwa":"Wielka księga rysowania krok po kroku","Autor":"Whatmore Candice","Cena":"19.13"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"AMEET","Nazwa":"Lego Ninjago Księga Spinjitzu","Cena":"21.8"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Blender. Architektura i projektowanie. Wydanie II - Piotr Chlipalski","Autor":"Piotr Chlipalski","Cena":"54.19"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Wiedza Powszechna","Rok_wydania":"2014","Nazwa":"Fotografia z duszą","Autor":"Alessandra Cave","Cena":"36.99"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Rok_wydania":"2013","Nazwa":"Oracle Database 12c i SQL. Programowanie","Autor":"Jason Price","Cena":"56.98"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Excel 2010 PL Programowanie w VBA Vademecum Walkenbacha - John Walkenbach","Autor":"John Walkenbach","Cena":"69.9"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Autodesk inventor professional 2019 PL / 2019+ / Fusion 360 metodyka projektowania - Andrzej Jaskulski [KSIĄŻKA]","Autor":"Andrzej Jaskulski","Cena":"114.73"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2018","Nazwa":"Analizy statystyczne z programami Statistica i Excel - Małgorzata Rabiej","Autor":"Małgorzata Rabiej","Cena":"33.86"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2017","Nazwa":"Linux. Leksykon kieszonkowy. Wydanie III - Daniel J. Barrett","Autor":"Daniel J. Barrett","Cena":"17.25"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Nazwa":"Programowanie w języku R","Autor":"Gągolewski Marek","Cena":"53.63"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"PHP i MySQL. Dla każdego. Wydanie III - Marcin Lis","Autor":"Marcin Lis","Cena":"57.49"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"DDD dla architektów oprogramowania - Vaughn Vernon [KSIĄŻKA]","Autor":"Vaughn Vernon","Cena":"61.18"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Egmont","Nazwa":"Minecraft. Album przetrwania z naklejkami","Autor":"Jelley Craig, Milton Stephanie","Cena":"14.31"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Adobe Premiere pro CC Oficjalny podręcznik - Maxim Jago [KSIĄŻKA]","Autor":"Maxim Jago","Cena":"51.13"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Wydawnictwo Naukowe PWN","Rok_wydania":"2015","Nazwa":"Kurs księgowości komputerowej Sage Symfonia 2015.","Autor":"Chomuszko Magdalena, Sikorska Natalia","Cena":"27.3"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Java. To takie proste. Praktyczne wprowadzenie do programowania - Bryson Payne [KSIĄŻKA]","Autor":"Bryson Payne","Cena":"53.63"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"PWN","Rok_wydania":"2018","Nazwa":"Praktyczny Sql Opowiadanie Historii Poprzez Dane Przewodnik Dla Początkujących - Anthony Debarros","Autor":"Anthony Debarros","Cena":"60.42"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Egmont","Rok_wydania":"2018","Nazwa":"Minecraft. Rocznik 2019 - Milton Stephanie, Ryan Marsh, Sam Ross","Autor":"Stephanie Milton","Cena":"17.21"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2014","Nazwa":"Nie każ mi myśleć! O życiowym podejściu do funkcjonalności stron internetowych. Wydanie II","Autor":"Steve Krug","Cena":"28.13"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Nazwa":"Python. Uczenie maszynowe - Sebastian Raschka [KSIĄŻKA]","Autor":"Sebastian Raschka","Cena":"39.44"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
+{"Typ":"Książka","Wydawnictwo":"Helion","Rok_wydania":"2016","Nazwa":"Zarządzanie 3.0. Kierowanie zespołami z wykorzystaniem metodyk Agile","Autor":"Jurgen Appelo","Cena":"33.82"}
+{ "index" : { "_index" : "products_books", "_type" : "_doc" } }
